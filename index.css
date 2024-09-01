@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+body {
+    font-family: "Teko", sans-serif;
+}
+.nav-item:hover {
+    border-bottom: 2px solid red;
+}
+.nav-item {
+    font-family: "Teko", sans-serif;
+    font-size: 22px;
+}
+.navbar-collapse{
+    margin-left: 30%;
+}
+.carousel-caption {
+    font-family: "Teko", sans-serif;
+}
+.carousel{
+    margin-top: -3%;
+}
+
+/* second */
+.second {
+    overflow: hidden;
+}
+
+.padd {
+    padding: 5%;
+}
+
+.outline {
+    width: 40%;
+    padding-left: 7px;
+    padding-top: 10px;
+    border: 1.5px solid black;
+    overflow: hidden;
+}
+
+.outline>img:hover {
+    margin-top: -5%;
+    margin-left: -2%;
+    transition: 2s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card-body>i {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-top: 1.3%;
+    font-size: 4vmin;
+    margin-left: -3%;
+}
+
+.card-body img {
+    margin-bottom: 2%;
+}
+
+.card-body img:hover {
+    transform: rotate(7deg);
+    transition: 1s;
+}
+
+.card2 {
+    font-family: "Teko", sans-serif;
+    width: 90%;
+    height: 48%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* third */
+.third {
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.third-text>h2 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.third-text {
+    text-align: center;
+    font-family: "Teko", sans-serif;
+}
+
+.active {
+    color: red;
+}
+
+.a {
+    border-left: 1px solid gainsboro;
+    padding-left: 3%;
+    text-decoration: none;
+    color: gray;
+}
+
+.gg {
+    position: relative;
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+.shp {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    padding: 10%;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+.gg:hover .shp {
+    display: flex;
+}
+
+.gg:hover img {
+    filter: blur(2px);
+}
+
+/* fourth-section */
+.fourth {
+    overflow: hidden;
+    font-family: "Teko", sans-serif;
+}
+
+.flx {
+    padding: 5%;
+}
+
+.get {
+    border: none;
+    background-color: red;
+    color: white;
+    width: 30%;
+}
+
+.exp-data>h2 {
+    font-size: 15vmin;
+}
+
+.exp-data>h6 {
+    margin-top: -10%;
+}
+
+/* fivth */
+.fivth {
+    overflow: hidden;
+    padding: 5%;
+    margin-top: -10%;
+}
+
+.card-logo {
+    border: 1px solid;
+    opacity: 50%;
+}
+
+.card-logo img {
+    width: 100%;
+}
+
+.card-logo:hover {
+    transform: scale(.8);
+    opacity: 100%;
+    transition: .3s;
+}
+
+/* sixth */
+.sixth {
+    overflow: hidden;
+    padding: 5%;
+    font-family: "Teko", sans-serif;
+}
+
+.sixth>h2 {
+    text-align: center;
+}
+
+.-body img {
+    width: 100%;
+    filter: saturate(0%);
+}
+
+.-body a {
+    margin-top: -3%;
+    background-color: black;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 5vmin;
+}
+
+.-body img:hover {
+    filter: saturate(100%);
+}
+
+/* seventh */
+.seventh {
+    padding: 5%;
+    overflow: hidden;
+}
+
+.count {
+    display: flex;
+    gap: 70px;
+    border-bottom: 1px solid gainsboro;
+    width: 50%;
+}
+
+.count>h5:hover {
+    border-bottom: 1px solid red;
+    cursor: pointer;
+}
+
+.dreambtn {
+    display: flex;
+    gap: 5px;
+}
+
+.in {
+    border: none;
+    width: 20%;
+    background-color: red;
+    color: white;
+    padding: 1%;
+}
+
+.dal {
+    border: none;
+    width: 30%;
+    background-color: transparent;
+    border: 1.5px solid black;
+}
+
+.text-secondary {
+    color: red !important;
+}
+
+/* nineth */
+.nineth {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+
+/* ten */
+.tencard {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: rgb(110, 235, 59);
+    background: linear-gradient(90deg, rgba(110, 235, 59, 1) 34%, rgba(0, 212, 255, 1) 100%);
+}
+.tencard img {
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    object-fit: cover; 
+    clip-path: circle(100%);
+}
+.ro{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.stars{
+    display: flex;
+}
+.stars i{
+    color: rgb(255, 230, 0);
+}
+.stars>h3{
+    font-size: 2.5vmin;
+    color: white;
+    margin-left: 3%;
+}
+.rev{
+    border: none;
+    width: 30%;
+    padding: 1%;
+    background-color: rgb(255, 230, 0);
+    color: white;
+    margin-top: 5%;
+}
+footer{
+    padding-top: 5%;
+    padding-left: 5%;
+    overflow: hidden;
+}
+.card-footer{
+    color: white;
+}
+.card-footer>h2{
+    margin-top: 8%;
+    font-size: 2vmin;
+    color: rgb(25, 243, 112);
+    border-bottom: 1px solid gainsboro;
+}
+.icon{
+    padding: 1%;
+    display: flex;
+    gap: 15px;
+    
+}
+.icon>i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(72, 72, 72);
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 3%;
+}
+.input input{
+    margin-top: 5%;
+    width: 100%;
+    padding: 3%;
+}
+textarea{
+    margin-top: 5%;
+    width: 100%;
+    height: 113px;
+}
+
+@media (min-width:320px) and (max-width:576px){
+    .second{
+        margin-left: 6%;
+    }
+    .card--{
+        margin-bottom: 5%;
+    }
+    .card-body>i{
+        font-size: 10vmin;
+        margin-top: 4%;
+        margin-left: -10%;
+    }
+    .third-text{
+        text-align: left;
+        margin-left: 4%;
+    }
+    .third-text>p{
+        font-size: 5vmin;
+    }
+    .flx{
+        margin: 12%;
+    }
+    .exp-data>h6{
+        font-size: 3vmin;
+    }
+    .get{
+        width: 40%;
+        margin-bottom: 3%;
+    }
+    .fivth{
+        margin-left: 2%;
+    }
+    .flex>a{
+        margin-left: 4%;
+    }
+    .card{
+        margin-top: 3%;
+    }
+    .in{
+        width: 30%;
+    }
+    .dal{
+        width: 50%;
+    }
+    .outline{
+        margin-left: 24%;
+    }
+    .nineth{
+        margin-left: -5%;
+    }
+    .nineth>h2{
+        text-align: left;
+        margin-left: 3%;
+    }
+    .ten{
+        font-size: 3vmin;
+        margin-top: -15%;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .get{
+        width: 70%;
+        padding: 1%;
+        margin-bottom: 4%;
+    }
+    .card{
+        margin-top: 2%;
+    }
+    .-body>a{
+        margin-top: 0%;
+    }
+    .seventh{
+        padding: 1%;
+        margin: 1%;
+        margin-left: -10%;
+    }
+    .in{
+        width: 30%;
+    }
+    .dal{
+        width: 35%;
+    }
+    .nineth{
+        margin-left: 20%;
+        text-align: center;
+    }
+    .nineth>h2{
+        margin-left: -30%;
+        text-align: left;
+    }
+    .tencard{
+        height: auto;
+    }
+}
